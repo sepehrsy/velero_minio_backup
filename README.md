@@ -1,10 +1,11 @@
 # velero_minio_backup
-## Velero Minio Content Backup
-### vim /usr/local/bin/backup.sh
-#### chmod a+x /usr/local/bin/backup.sh
+#### Velero Minio Content Backup
+```
+cp backup.sh /usr/local/bin/
+chmod a+x /usr/local/bin/backup.sh
+```
 
-
-### cronjob:
+#### cronjob:
 #### EOF /etc/crontab
 
 ```
